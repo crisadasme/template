@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "catdevnull"
-version = "1.0.1"
+name = "src"
+version = "1.0.0"
 description = ""
 authors = ["Cristopher Adasme <cristopher@getxerpa.com>"]
 
