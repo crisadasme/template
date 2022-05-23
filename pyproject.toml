@@ -1,17 +1,17 @@
 [tool.poetry]
-name = "entrypoint"
-version = "0.1.0"
+name = "src"
+version = "1.0.1"
 description = ""
-authors = ["Cristopher Adasme <cadasmeq@gmail.com>"]
+authors = ["Cristopher Adasme <cristopher@getxerpa.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-flake8 = "^4.0.1"
 pytest-cov = "^3.0.0"
-nameko = "^2.14.1"
+pytest = "^7.1.2"
+flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "^7.1.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -25,4 +25,4 @@ version_variable = [
 branch = "main"
 upload_to_pypi = false
 upload_to_release = true
-build_command = "pip install poetry && poetry build"
+build_command = "pip3 install poetry && poetry build"
