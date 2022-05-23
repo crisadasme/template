@@ -8,7 +8,6 @@ on:
 
 jobs:
   Quality:
-    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: ./.github/workflows/reusables/quality.yaml
@@ -16,7 +15,6 @@ jobs:
   Release:
     needs: Quality
     if: github.event_name == 'push' && github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, 'chore(release):')
-    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: ./.github/workflows/reusables/semantic-release.yaml
