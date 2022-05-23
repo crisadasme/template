@@ -8,6 +8,7 @@ authors = ["Cristopher Adasme <cadasmeq@gmail.com>"]
 python = "^3.9"
 flake8 = "^4.0.1"
 pytest-cov = "^3.0.0"
+nameko = "^2.14.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
