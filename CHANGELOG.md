@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.1.1 (2022-05-24)
+### Performance
+* Deleted cache ([`77d28c0`](https://github.com/crisadasme/template/commit/77d28c0e0826c771b92189b875712827ea304609))
+
 ## v1.1.0 (2022-05-23)
 ### Feature
 * Added current coverage ([`68bc0e6`](https://github.com/crisadasme/template/commit/68bc0e62689b4add800b5b53460487c2fc193891))
