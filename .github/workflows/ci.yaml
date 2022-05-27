@@ -69,3 +69,11 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           semantic-release publish
+
+  Docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        docs-folder: "docs/"
